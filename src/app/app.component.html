@@ -1,0 +1,6 @@
+<h1>FORM</h1>
+
+<form [formGroup]="exampleForm" novalidate>
+	<input matInput placeholder="Greeting" type="text" formControlName="greeting">
+  <hello [fg]="exampleForm"></hello>
+</form>
